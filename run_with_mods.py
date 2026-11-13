@@ -3,7 +3,7 @@
 # @Author : Jor<jorhelp@qq.com>
 # @Date   : Wed Apr 20 00:17:30 HKT 2022
 # @Desc   : Webcam vulnerability scanning tool
-
+print("golda")
 import warnings; warnings.filterwarnings("ignore")
 from gevent import monkey; monkey.patch_all(thread=False)
 import os, sys, traceback
